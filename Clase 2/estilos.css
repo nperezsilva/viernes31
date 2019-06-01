@@ -1,0 +1,31 @@
+.popup {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.popup.p{
+    width: 300px;
+    text-align: center;
+
+}
+
+.popup.button {
+    border: none;
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/*para todos quellos botones q esten adentro de la clase popup */
+.popup button:nth-child(2){
+    background-color: deeppink;
+}
+.popup button:nth-child(3){
+    background-color: hotpink;
+}
